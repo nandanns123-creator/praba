@@ -1,0 +1,40 @@
+.controls {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.filter-buttons, .sort-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter-buttons h3, .sort-buttons h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #667eea;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #667eea;
+  color: white;
+}
+
+button.active {
+  background: #667eea;
+  color: white;
+  border-color: #5a67d8;
+}
